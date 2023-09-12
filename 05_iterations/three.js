@@ -5,6 +5,7 @@
 
 const arr = [1, 2, 3, 4, 5]
 
+// 'for of' is direct excess the value of array
 for (const num of arr) {
     // console.log(num);
 }
@@ -33,6 +34,7 @@ const myObject = {
 }
 
 // it not work because it is not iterable
+
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-' , value);
 // }
