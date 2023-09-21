@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<style>
+    body{
+        background:#212121;
+        color: #fff;
+    }
+</style>
+<body>
+       
+</body>
+<script>
+    
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = "myId"
+    div.setAttribute("title","bishal")
+    div.style.backgroundColor = "red"
+    div.style.padding = "20px"
+    div.style.height = "100px"
+    div.style.width = "100%"
+    // div.innerHTML = "Bishal is a developer"  // this is not good way
+    const addText = document.createTextNode("Bishal is a web developer")
+    div.appendChild(addText)  
+
+    // add in body part
+    document.body.appendChild(div)
+
+</script>
+</html>
