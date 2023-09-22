@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #212121;
+    color: #fff;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c46767;
+}
+
+.list li{
+    margin: 30px;
+    list-style-type: none;
+}
+
+.list li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid black;
+}
+
+a:hover{
+    background: #fff;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: rgb(82, 11, 196);
+}
